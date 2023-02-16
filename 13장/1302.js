@@ -8,7 +8,7 @@ if(true){
 }
 
 function foo(){
-    var var4 = 4;
+    var var4 = 5;
     function bar(){
         var var5 = 5;
     }
