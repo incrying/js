@@ -1,0 +1,1 @@
+Number.MIN_SAFE_INTEGER //안전하게 표현할 수 있는 가장 작은 정수값

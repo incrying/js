@@ -1,0 +1,1 @@
+Number.MAX_SAFE_INTEGER //jS에서 표현할 수 있는 가장 큰 정수값
