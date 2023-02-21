@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div id="foo">Hello<span>World!</span></div>
+</body>
+<script>
+    //#foo 요소의 콘텐츠 영역 내의 HTML 마크업을 문자열로 취득한다.
+    console.log(document.getElementById('foo').innerHTML);
+    //Hello<span>World!</span>
+</script>
+</html>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+    <body>
+        <div id="foo">Hello<span>World!</span></div>
+    </body>
+    <script>
+        //HTML 마크업이 파싱되어 요소 노드의 자식 노드로 DOM에 반영된다.
+        document.getElementById('foo').innerHTML = 'Hi<span>there!</span>';
+    </script>
+</html>-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<body>
+    <ul id="fruits">
+        <li class="apple">Apple</li>
+    </ul>
+</body>
+<script>
+    const $fruits = document.getElementById('fruits');
+
+    //노드 추가
+    $fruits.innerHTML += '<li class="banana">Banana</li>';
+
+    //노드 교체
+    $fruits.innerHTML = '<li class="orange">Orange</li>';
+
+    //노드 삭제
+    $fruits.innerHTML = '';
+</script>
+</html>-->
